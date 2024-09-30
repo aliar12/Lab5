@@ -15,7 +15,7 @@ public class PlayerAudioManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void PlayPunchSound()
     {
         audioSource.Play();
     }
